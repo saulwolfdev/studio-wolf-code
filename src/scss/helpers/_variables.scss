@@ -1,0 +1,55 @@
+
+$max-width:1200px;
+$roboto-sans: 'Roboto', sans-serif;
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --alternate-font: sans-serif;
+    --font-size: 16px;
+    --font-weight-300:100;
+    --font-weight-400:400; 
+    --font-weight-500:500; 
+    --font-weight-700:700;  
+    --line-height: 1.6;
+    --main-color: #FFF;
+    --color-hover:#6f007b;
+    --color-admin:#e4e4e4;
+    --main-modal-color: rgb(255, 255, 255, .75);
+    --second-color: #000;
+    --three-color:#fbfbfb;
+    --second-modal-color: rgba(0, 0, 0, .75);
+    --alternate-color: rgb(190, 0, 143);
+    --alternate-modal-color: rgba(68, 0, 95, 0.75);
+  
+    --bg-color: var(--main-color);
+    --bg-modal-color: var(--main-modal-color);
+    --bg-alternate-color: #999;
+    --bg-alternate-modal-color: rgba(153, 153, 153, .75);
+    --border-color: #DDD;
+
+    --text-color: #242424;
+    --title-color: #333;
+  
+    --link-color: var(--alternate-color);
+    --link-hover-color: var(--alternate-modal-color);
+  
+    --max-width: 1600px;
+    --header-height: 4rem;
+  
+    --logo-width: 4rem;
+    --logo-height: 4rem;
+    --logo-spacing: .5rem;
+    
+    --z-back:-10;
+    --z-standar:1;
+    --z-tooltip:10;
+    --z-fixed:100;
+    --z-modal:1000;
+  }
+
+  $breakpoints: (
+    extra-small: 30em, /* 480 / 16  */
+    small: 37.5em, /* 600 / 16  */
+    medium: 45em, /* 720 / 16 */
+    large: 64em, /* 1024 / 16 */
+    extra-large: 75em /* 1200/ 16 */
+  );
