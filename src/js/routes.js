@@ -11,7 +11,6 @@ const routes=()=>{
     data.addEventListener("DOMContentLoaded",e=>{
         e.preventDefault()
         main.innerHTML=tplHome;
-        showPhotos()
     })
     data.addEventListener("click",e=>{
         if(e.target.matches('a[href="#"]')){
@@ -19,7 +18,6 @@ const routes=()=>{
         }
         if(e.target.matches(".home")){
             main.innerHTML=tplHome
-            showPhotos()
         }
         else if(e.target.matches(".contact")){
             main.innerHTML=tplContant

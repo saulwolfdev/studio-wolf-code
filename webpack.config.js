@@ -1,9 +1,9 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin"),
-  MiniCssExtractPlugin = require("mini-css-extract-plugin"),
-  CleanWebpackPlugin = require("clean-webpack-plugin"),
-  autoprefixer = require("autoprefixer")
-  const webpack = require('webpack');
-const path = require('path');
+      MiniCssExtractPlugin = require("mini-css-extract-plugin"),
+      CleanWebpackPlugin = require("clean-webpack-plugin"),
+      autoprefixer = require("autoprefixer"),
+      webpack = require('webpack'),
+      path = require('path');
 
 
 module.exports = {
