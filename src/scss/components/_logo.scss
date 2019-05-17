@@ -6,7 +6,8 @@
     left: var(--logo-spacing);
     padding: var(--logo-spacing);
     width: var(--logo-width);
-    height: var(--logo-height);  
+    height: var(--logo-height);
+    padding-top: 0;  
     @include media-queries(medium){
       position: static;
       width: var(--header-height);
@@ -14,5 +15,6 @@
       grid-area: logo;
       background-color: transparent;
       border-radius: 0;
+      padding-top: 0;
     }
   }

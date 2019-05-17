@@ -1,17 +1,20 @@
 
 /****helpers***/
+@import "./components/parallaxStyle";
 @import "./helpers/variables";
 @import "./helpers/mixins";
 @import "./helpers/reset";
 @import "./helpers/utilities";
 @import "./helpers/pages";
 /****components***/
+
 @import "./components/header";
 @import "./components/logo";
-@import "./components//title";
-@import "./components/menu";
 @import "./components/footer";
+
 @import "./components/main";
 @import "./components/form";
 @import "./components/fonts";
+@import "./components/menu";
+
 

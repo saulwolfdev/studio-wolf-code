@@ -1,26 +1,57 @@
 .Main {
     padding: 0 .5rem;
     padding-left: 0;
+    padding-right: 0;
     padding-top: var(--header-height);
     width: 100%;
     padding-right: 0;
     min-height: 100vh;
-    transition:
-      margin-left .3s ease,
-      width .3s ease;
-  
-    &.is-active {
-      margin-left: 50%;
-      width: 50%;
-    }
-  
+    padding-right: .5rem;
+    display: block;
+    list-style: none;
+    text-decoration: none;
     @include media-queries(medium) {
       padding-top: calc(var(--header-height) + 1rem);
     }
-  
-    // @include media-queries(large) {
-    //   padding: 1rem;
-    //   margin-left: 30%;
-    //   width: 70%;
-    // }
   }
+  .background{
+    background-image: url(../../img/wolf.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    background-size: cover;
+    background-position: inherit;
+    position: absolute;
+    overflow: hidden; 
+  }
+  .temp {
+    font-family: $roboto-sans;
+    margin-top: 171px;
+    font-size: 24rem;
+    font-weight: 900;
+    letter-spacing: -0.07em;
+    color: #00c7ff;
+    opacity: .5;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.31);
+}
+.absolute h2 {
+  font-family: $roboto-sans;
+  font-size: 9rem;
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  color: #f11414;
+  z-index: -1;
+  font-family: 'roboto',sans-serif;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.31);
+}
+.date {
+  font-family: $roboto-sans;
+  margin-top: 410px;
+  font-size: 72px;
+  font-weight: 200;
+  color: #00aeff;
+}
