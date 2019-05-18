@@ -18,7 +18,7 @@ const routes=()=>{
             main.innerHTML=tplHome
         }
         else if(e.target.matches(".contact")){
-            let fondo=document.querySelector(",background")
+            let fondo=document.querySelector(".background")
             fondo.remove()
             main.innerHTML=tplContant
         }

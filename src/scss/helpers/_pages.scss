@@ -73,7 +73,7 @@
   
   .Contact {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 60%;
     min-height: calc(100vh - var(--header-height));
     display: flex;
     justify-content: center;
@@ -83,7 +83,9 @@
       min-height: calc(100vh - var(--header-height) - 2rem);
     }
   
-    Form { width: 100%; }
+    Form { width: 100%; 
+      margin-top: 26px;
+    }
   }
   
   .Admin {
